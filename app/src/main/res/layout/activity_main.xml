@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#041019">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="J.A.R.V.I.S MOBILE" android:textColor="#52F5FF" android:textSize="24sp" android:textStyle="bold" android:paddingBottom="12dp" />
+<TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ready. Tap Start Listening and speak a command." android:textColor="#D8F8FF" android:textSize="16sp" android:paddingBottom="16dp" />
+<Button android:id="@+id/listenButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="START LISTENING" />
+<Button android:id="@+id/accessibilityButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ENABLE ACCESSIBILITY CONTROL" />
+<TextView android:id="@+id/transcriptText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Heard: —" android:textColor="#8DECF5" android:textSize="15sp" android:paddingTop="20dp" />
+<TextView android:id="@+id/helpText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Try: open WhatsApp | open YouTube | open Gmail | go home | go back | recent apps | scroll down | scroll up | tap Settings" android:textColor="#B6C8D0" android:textSize="14sp" android:paddingTop="12dp" />
+</LinearLayout></ScrollView>
